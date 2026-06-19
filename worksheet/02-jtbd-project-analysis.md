@@ -9,7 +9,7 @@ companion-reference: Strategyn_JTBD_Playbook.pdf (giảng viên gửi kèm)
 
 # Lab 2 — JTBD Project Analysis / Dùng JTBD để soi lại dự án nhóm
 
-**Tên dự án / sản phẩm:** _______________  
+**Tên dự án / sản phẩm:** AI Hỗ Trợ Phát Hiện Tương Tác Thuốc & Rà Soát Đơn Thuốc An Toàn
 
 > Đây là **file duy nhất** của Lab 2.  
 > File này đồng thời đóng vai trò:
@@ -427,10 +427,10 @@ Job story chưa có research vẫn chỉ là **giả thuyết tốt hơn**, chư
 ### Ghi nhanh sau khi nghe bàn phản biện
 
 | Ý phản biện tôi nghe được | Nó chạm vào phần nào? | Tôi sẽ giữ / sửa gì? |
-|---|---|---|
-| | | |
-| | | |
-| | | |
+|Job executor còn quá rộng|Job executor|Sửa|
+|Core JTBD hơi giống mục tiêu y khoa chứ chưa giống job của user | Core JTBD| Sửa|
+|JS2: quá chung |Job Stories |Sửa|
+|JS3:Bạn đang nhét solution (OCR).JTBD không nói OCR. |Job Stories |Sửa |
 
 ---
 
@@ -439,38 +439,33 @@ Job story chưa có research vẫn chỉ là **giả thuyết tốt hơn**, chư
 ### Sau khi nghe phản biện, tôi thay đổi gì?
 
 - [ ] Giữ nguyên `job executor`
-- [ ] Sửa `job executor`
+- [x] Sửa `job executor`
 - [ ] Giữ nguyên `core JTBD`
-- [ ] Sửa `core JTBD`
+- [x] Sửa `core JTBD`
 - [ ] Giữ nguyên `AI leverage point`
-- [ ] Sửa `AI leverage point`
+- [x] Sửa `AI leverage point`
 - [ ] Giữ nguyên `product hypothesis`
-- [ ] Sửa `product hypothesis`
+- [x] Sửa `product hypothesis`
 
 ### Vì sao tôi giữ / sửa?
 
-> _______________________________________________  
-> _______________________________________________
+> Sau khi thảo luận, tôi nhận thấy Job executor ban đầu còn quá rộng và Core JTBD giống mục tiêu y khoa hơn là hành động thực tế của người dùng. Ngoài ra, AI không nên đóng vai trò thay thế quyết định chuyên môn mà nên hỗ trợ ưu tiên và giải thích thông tin để giảm cảnh báo nhiễu.
 
 ### Version cuối cùng tôi nộp
 
 **Job executor:**  
-> _______________________________________________
-
+> Bác sĩ khám ngoại trú kê đơn cho bệnh nhân đa bệnh nền và đa thuốc.
 **Core JTBD:**  
-> _______________________________________________
-
+> Rà soát và xác nhận đơn thuốc an toàn cho bệnh nhân đa bệnh nền trong thời gian khám giới hạn.
 **2 bước đau nhất trong workflow:**  
-> _______________________________________________
-
+> Locate và Confirm.
 **AI leverage point chính:**  
-> _______________________________________________
-
+> AI ưu tiên và giải thích cảnh báo tương tác thuốc dựa trên ngữ cảnh bệnh nhân.
 **Product hypothesis:**  
-> _______________________________________________
+> Nếu chúng tôi giúp bác sĩ khám ngoại trú xác nhận các tương tác thuốc nghiêm trọng tốt hơn ở bước Confirm bằng cách ưu tiên và diễn giải cảnh báo dựa trên hồ sơ bệnh nhân, thì họ sẽ chuyển từ việc bỏ qua hàng loạt cảnh báo HIS sang sử dụng hệ thống của nhóm vì họ có thể đưa ra quyết định nhanh hơn mà vẫn đảm bảo độ an toàn lâm sàng.
 
 **Assumption cần validate đầu tiên:**  
-> _______________________________________________
+> Bác sĩ có thực sự gặp alert fatigue đủ thường xuyên để muốn thay đổi workflow hiện tại hay không.
 
 ---
 
@@ -483,7 +478,7 @@ Job story chưa có research vẫn chỉ là **giả thuyết tốt hơn**, chư
 - [x] Tôi đã điền `JTBD lite map` và khoanh ra 2 bước đau nhất.
 - [x] Tôi đã chỉ ra `AI leverage point` thay vì nhảy thẳng vào feature list.
 - [x] Tôi đã ghi rõ `assumptions to validate`.
-- [ ] Tôi đã sửa version cuối sau khi share trong bàn.
+- [x] Tôi đã sửa version cuối sau khi share trong bàn.
 
 ---
 
